@@ -1,0 +1,38 @@
+body {
+    background-color: #EEEEEE;
+    font-family: 'Sometype Mono', monospace;
+    padding: 30px; /* Adjust padding as needed */
+    height: 100vh; /* Make it 100% of the viewport height */
+    width: 100%; /* Make it 100% of the viewport width */
+    max-width: 1200px; /* Set your desired maximum width */
+    margin: 0 auto; /* Center the container */
+    font-size: 16px
+    font-weight: 400
+}
+
+.name {
+     font-size: 50px; /* Adjust the font size as needed */
+     margin-bottom: 3px;
+     font-weight: 400
+}
+
+.designation {
+    margin-top: 0px
+}
+
+.section_headings {
+    margin-top: 50px;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none; /* Remove underline */
+    color: #000; /* Set link font color */
+}
+
+section {
+    margin: 20px;
+}
