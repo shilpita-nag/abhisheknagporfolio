@@ -125,6 +125,30 @@ p {
 	grid-row: span 3;
 }
 
+/* Responsive Font Sizes using Viewport Units */
+@media screen and (min-width: 600px) {
+     .name {
+          font-size: 50px;
+     }
+     .designation {
+          font-size: 16px;
+     }
+     body {
+          padding: 30px;
+     }
+     section {
+          margin: 0 auto;
+     }
+}
+
+@media screen and (max-width: 1024px) {
+	.image-grid {
+		--num-cols: 2;
+		--row-height: 200px;
+	}
+}
+
+
 .container {
     width: 100%;
     max-width: 1200px;
